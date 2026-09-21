@@ -2,7 +2,9 @@
 
 A minimalist, high-contrast dark theme inspired by the iconic New York City Medallion Taxi.
 
-Built on deep asphalt carbon backgrounds (`#101214`) accented with punchy Medallion Yellow (`#f5b700`) and Canary Yellow (`#ffd13b`). Engineered for zero eye strain, distinct syntax readability, and seamless integration with minimalist desktop workflows (`dwm`, `st`, `tmux`, `fzf`, `vifm`, `zathura`).
+> **The Lore**: In New York City, an official yellow cab is distinguished by its **Medallion** — the stamped, gold-cast plaque bolted to the hood, granting the exclusive authority to pick up street-hail passengers across the five boroughs. 
+> 
+> `medallion.nvim` captures that nocturnal urban aesthetic: deep, matte asphalt pavement (`#101214`) punctuated by the authoritative, high-visibility glow of NYC Medallion Yellow (`#f5b700`) and Canary Yellow (`#ffd13b`). Engineered for zero eye strain, distinct syntax clarity, and seamless integration with minimalist, suckless Unix workflows (`dwm`, `st`, `tmux`, `fzf`, `vifm`, `zathura`).
 
 ---
 
@@ -83,7 +85,9 @@ Ready-to-use snippets for minimal Unix tools are located in [`extras/`](./extras
 - **tmux**: [`extras/tmux.conf`](./extras/tmux.conf)
 - **dunst**: [`extras/dunst.conf`](./extras/dunst.conf)
 - **fzf**: [`extras/fzf.bash`](./extras/fzf.bash)
+- **vifm**: [`extras/medallion.vifm`](./extras/medallion.vifm)
 - **zathura**: [`extras/zathurarc`](./extras/zathurarc)
+- **qutebrowser**: [`extras/qutebrowser.py`](./extras/qutebrowser.py)
 
 ---
 
