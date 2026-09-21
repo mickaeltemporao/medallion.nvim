@@ -1,0 +1,13 @@
+# Medallion (NY Taxi) Palette for Zathura
+
+set recolor true
+set recolor-keephue true
+set recolor-darkcolor "#e6e8eb"
+set recolor-lightcolor "#101214"
+
+set default-bg "#101214"
+set default-fg "#e6e8eb"
+set statusbar-bg "#181a1d"
+set statusbar-fg "#e6e8eb"
+set inputbar-bg "#101214"
+set inputbar-fg "#f5b700"
