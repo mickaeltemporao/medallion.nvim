@@ -1,4 +1,4 @@
-# medallion.nvim 🚕
+# medallion.nvim
 
 A minimalist, high-contrast dark theme inspired by the iconic New York City Medallion Taxi.
 
@@ -8,7 +8,7 @@ A minimalist, high-contrast dark theme inspired by the iconic New York City Meda
 
 ---
 
-## 🎨 Master Palette
+## Master Palette
 
 | Color | Hex | Role |
 | :--- | :--- | :--- |
@@ -28,7 +28,7 @@ A minimalist, high-contrast dark theme inspired by the iconic New York City Meda
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### lazy.nvim
 ```lua
@@ -60,7 +60,7 @@ colorscheme medallion
 
 ---
 
-## 🚀 Statusline Integration (Lualine)
+## Statusline Integration (Lualine)
 
 `medallion.nvim` includes a native Lualine theme:
 
@@ -76,13 +76,14 @@ require("lualine").setup({
 
 ---
 
-## 🖥️ Desktop Integration (Extras)
+## Desktop & Tool Integration (Extras)
 
-Ready-to-use snippets for minimal Unix tools are located in [`extras/`](./extras/):
+Ready-to-use snippets for minimal Unix tools and CLI environments are located in [`extras/`](./extras/):
 
 - **dwm**: [`extras/dwm.h`](./extras/dwm.h)
 - **st**: [`extras/st.h`](./extras/st.h)
 - **tmux**: [`extras/tmux.conf`](./extras/tmux.conf)
+- **agy (Antigravity CLI)**: [`extras/agy.json`](./extras/agy.json)
 - **dunst**: [`extras/dunst.conf`](./extras/dunst.conf)
 - **fzf**: [`extras/fzf.bash`](./extras/fzf.bash)
 - **vifm**: [`extras/medallion.vifm`](./extras/medallion.vifm)
@@ -91,6 +92,6 @@ Ready-to-use snippets for minimal Unix tools are located in [`extras/`](./extras
 
 ---
 
-## 📄 License
+## License
 
 MIT License. See [LICENSE](./LICENSE) for details.
