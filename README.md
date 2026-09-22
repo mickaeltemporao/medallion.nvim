@@ -10,21 +10,24 @@ A minimalist, high-contrast dark theme inspired by the iconic New York City Meda
 
 ## Master Palette
 
-| Color | Hex | Role |
-| :--- | :--- | :--- |
-| **Asphalt Dark** | `#101214` | Editor & terminal background |
-| **Asphalt Surface**| `#181a1d` | Floating menus, statusline background |
-| **Border Muted** | `#23272e` | Inactive window borders, subtle split lines |
-| **Medallion Yellow**| `#f5b700` | Primary accent, focused borders, active tags/tabs |
-| **Canary Yellow** | `#ffd13b` | Cursor, active highlights, search matches |
-| **Warm Amber** | `#ff9800` | Warnings, special tokens |
-| **Off-White** | `#e6e8eb` | Primary text |
-| **Muted Slate** | `#6e7681` | Comments, line numbers, inactive items |
-| **Subway Green** | `#98c379` | Strings, git additions |
-| **Stoplight Red** | `#e06c75` | Errors, git deletions |
-| **Street Sign Blue**| `#61afef` | Functions, identifiers |
-| **Cyan** | `#56b6c2` | Types, operators |
-| **Magenta** | `#c678dd` | Keywords, statements |
+| Color Name | Hex Code | Category | Role |
+| :--- | :--- | :--- | :--- |
+| **Deep Asphalt** | `#101214` | Base Canvas | Editor & terminal background, floating base |
+| **Night Pavement** | `#181a1d` | Surface Elevation | Floating menus, statusline background, popups |
+| **Steel Border** | `#23272e` | Structural Mute | Inactive window borders, subtle split lines |
+| **Pavement Seam** | `#2c313a` | Visual Selection | Editor visual selection background |
+| **Dark Slate** | `#484f58` | Dividers & Ticks | Statusline separators, inactive ticks |
+| **Muted Slate** | `#6e7681` | Passive Info | Comments, line numbers, inactive tabs/tags |
+| **Off-White** | `#e6e8eb` | Primary Text | Foreground text (90% luminance, glare-free) |
+| **Pure White** | `#ffffff` | Critical Foreground | High-priority notifications, error badges |
+| **Medallion Yellow**| `#f5b700` | Signature Hero | Focused window borders, active tags/tabs, keywords |
+| **Canary Yellow** | `#ffd13b` | Spotlight Beacon | Cursor, active highlights, search matches |
+| **Warm Amber** | `#ff9800` | Caution / Warning | Warnings, special tokens, numeric constants |
+| **Subway Green** | `#98c379` | Positive Status | Strings, diff additions, executables |
+| **Stoplight Red** | `#e06c75` | Critical Alert | Errors, diff deletions, broken symlinks |
+| **Street Sign Blue**| `#61afef` | Structural Logic | Functions, identifiers, directory links |
+| **Metro Cyan** | `#56b6c2` | Typographic Accent | Types, operators, technical specifications |
+| **Civic Magenta** | `#c678dd` | Control Flow | Keywords, statements, preprocessor macros |
 
 ---
 
@@ -83,6 +86,9 @@ Ready-to-use snippets for minimal Unix tools and CLI environments are located in
 - **dwm**: [`extras/dwm.h`](./extras/dwm.h)
 - **st**: [`extras/st.h`](./extras/st.h)
 - **tmux**: [`extras/tmux.conf`](./extras/tmux.conf)
+- **LS_COLORS (Bash/Zsh)**: [`extras/ls_colors.bash`](./extras/ls_colors.bash)
+- **dircolors**: [`extras/dircolors`](./extras/dircolors)
+- **NeoMutt**: [`extras/neomutt.muttrc`](./extras/neomutt.muttrc)
 - **agy (Antigravity CLI)**: [`extras/agy.json`](./extras/agy.json)
 - **dunst**: [`extras/dunst.conf`](./extras/dunst.conf)
 - **fzf**: [`extras/fzf.bash`](./extras/fzf.bash)
