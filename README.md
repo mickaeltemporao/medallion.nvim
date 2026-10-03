@@ -89,7 +89,7 @@ Ready-to-use snippets for minimal Unix tools and CLI environments are located in
 - **LS_COLORS (Bash/Zsh)**: [`extras/ls_colors.bash`](./extras/ls_colors.bash)
 - **dircolors**: [`extras/dircolors`](./extras/dircolors)
 - **NeoMutt**: [`extras/neomutt.muttrc`](./extras/neomutt.muttrc)
-- **agy (Antigravity CLI)**: [`extras/agy.json`](./extras/agy.json)
+- **agy**: [`extras/agy.json`](./extras/agy.json)
 - **dunst**: [`extras/dunst.conf`](./extras/dunst.conf)
 - **fzf**: [`extras/fzf.bash`](./extras/fzf.bash)
 - **vifm**: [`extras/medallion.vifm`](./extras/medallion.vifm)
