@@ -36,7 +36,7 @@ A minimalist, high-contrast dark theme inspired by the iconic New York City Meda
 ### lazy.nvim
 ```lua
 {
-  "username/medallion.nvim", -- or local path: dir = "~/Documents/code/medallion.nvim"
+  "mickaeltemporao/medallion.nvim", -- or local path: dir = "~/Documents/code/medallion.nvim"
   lazy = false,
   priority = 1000,
   config = function()
@@ -48,7 +48,7 @@ A minimalist, high-contrast dark theme inspired by the iconic New York City Meda
 ### packer.nvim
 ```lua
 use {
-  "username/medallion.nvim",
+  "mickaeltemporao/medallion.nvim",
   config = function()
     vim.cmd.colorscheme("medallion")
   end
@@ -57,7 +57,7 @@ use {
 
 ### vim-plug
 ```vim
-Plug 'username/medallion.nvim'
+Plug 'mickaeltemporao/medallion.nvim'
 colorscheme medallion
 ```
 
