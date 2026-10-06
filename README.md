@@ -101,3 +101,10 @@ Ready-to-use snippets for minimal Unix tools and CLI environments are located in
 ## License
 
 MIT License. See [LICENSE](./LICENSE) for details.
+
+---
+
+## AI Disclaimer
+
+This project was developed with the assistance of AI tools. While crafted and tested with care, please review configurations and code before using them in production.
+
